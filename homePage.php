@@ -63,11 +63,14 @@
   <div class="tab-pane fade" id="lessons-tab-pane" role="tabpanel" aria-labelledby="lessons-tab" tabindex="0" style="color: #D6EF9F"> 
     <h1>Lessons</h1> <br> 
     <form>
-      <button type: submit style="background-color: #D6EF9F; padding: 50px 75px; color: black; border-radius: 10px">Lesson 1: AI Poisoning</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-image: url('bias2.png'); background-repeat: no-repeat; background-position: center; padding: 200px 200px 100px 200px; background-size: cover;" ></button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-image: url('poisonResume2.png'); background-repeat: no-repeat; background-position: center; padding: 100px"></button>
+    <button type="button" class="btn btn-primary btn-lg btn-block">AI Resume Awareness</button>
+      <!-- <button type: submit style="background-image: url('bias.jpg'); padding: 50px 75px; color: black; border-radius: 10px">Lesson 1: AI Poisoning</button>
       <button type: submit style="background-color: #D6EF9F; padding: 50px 75px; color: black; border-radius: 10px">Lesson 2: AI in Resumes</button> 
       <br><br>
       <button type: submit style="background-color: #D6EF9F; padding: 50px 75px; color: black; border-radius: 10px;">Lesson 3: Oralce (??)</button>
-      <!-- <button type: submit style="background-color: indigo; padding: 50px 75px; color: white; border-radius: 8px">Lesson 4: idk</button> -->
+      <button type: submit style="background-color: indigo; padding: 50px 75px; color: white; border-radius: 8px">Lesson 4: idk</button> -->
     </form>
   </div> <!-- background-image: url('bias.jpg') -->
   <div class="tab-pane fade" id="lab-tab-pane" role="tabpanel" aria-labelledby="lab-tab" tabindex="0" style="color: #D6EF9F"> 
