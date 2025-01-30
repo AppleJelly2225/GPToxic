@@ -68,12 +68,10 @@
     <br>  
       Lesson 2: Poisoning
     <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #bcbcbc; background-image: url('poisonResume2.3.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 175px 0px;"></button>
-    <button type="button" class="btn btn-primary btn-lg btn-block">AI Resume Awareness</button>
-      <!-- <button type: submit style="background-image: url('bias.jpg'); padding: 50px 75px; color: black; border-radius: 10px">Less on 1: AI Poisoning</button>
-      <button type: submit style="background-color: #D6EF9F; padding: 50px 75px; color: black; border-radius: 10px">Lesson 2: AI in Resumes</button> 
-      <br><br>
-      <button type: submit style="background-color: #D6EF9F; padding: 50px 75px; color: black; border-radius: 10px;">Lesson 3: Oralce (??)</button>
-      <button type: submit style="background-color: indigo; padding: 50px 75px; color: white; border-radius: 8px">Lesson 4: idk</button> -->
+    <br>  
+      Lesson 3: AI Resume Awareness
+    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #eeebfc; background-image: url('aiAwareness1.2.png'); background-repeat: no-repeat; background-position: center; padding: 100px 0px 200px 0px;"></button>
+    <br><br><br>
     </form>
   </div> <!-- background-image: url('bias.jpg') -->
   <div class="tab-pane fade" id="lab-tab-pane" role="tabpanel" aria-labelledby="lab-tab" tabindex="0" style="color: #D6EF9F"> 

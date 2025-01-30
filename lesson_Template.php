@@ -27,12 +27,15 @@
 
 	<div style="display: block; padding-left: 7%; padding-top: 20px; color: #D6EF9F">
 		<h2>Lesson 1: Bias</h2>
+		<br>
 		<p style="float: left; width: 45%"> <!-- padding-right: 55%" -->
 		LEFT SIDE	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac sapien libero. Donec rhoncus dapibus fermentum. Fusce ut diam 
 		volutpat magna facilisis semper. Donec finibus tincidunt diam eget laoreet. Vivamus finibus orci eu auctor egestas. Sed condimentum 
 		id turpis vitae faucibus. Morbi scelerisque dictum tortor, eget tincidunt ante egestas quis. Morbi in quam quis tellus porttitor mollis at ut justo. 
 		Phasellus lacus velit, efficitur nec accumsan vestibulum, rutrum vitae justo. Suspendisse lacus diam, pellentesque quis dictum vitae, 
-		tempor in justo. Aenean id risus orci. Curabitur nec consequat nulla. Nullam ornare lobortis dui a aliquet. Aenean aliquet dolor
+		tempor in justo. Aenean id risus orci. 
+		<img src="placeholder.jpeg" alt="warning sign">
+		Curabitur nec consequat nulla. Nullam ornare lobortis dui a aliquet. Aenean aliquet dolor
 		 sit amet eros pretium tristique. Curabitur fringilla, est vitae faucibus lobortis, ante odio congue ex, a posuere est velit eget felis. 
 		 Pellentesque id tellus et urna porttitor malesuada. Donec malesuada tellus metus, eget ultricies purus efficitur ut. Donec non lectus 
 		 mi. Nunc volutpat rutrum tincidunt. Fusce accumsan commodo porta. Ut sit amet porttitor ante, vitae elementum justo. In fringilla 
