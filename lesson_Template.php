@@ -34,13 +34,22 @@
 		id turpis vitae faucibus. Morbi scelerisque dictum tortor, eget tincidunt ante egestas quis. Morbi in quam quis tellus porttitor mollis at ut justo. 
 		Phasellus lacus velit, efficitur nec accumsan vestibulum, rutrum vitae justo. Suspendisse lacus diam, pellentesque quis dictum vitae, 
 		tempor in justo. Aenean id risus orci. 
-		<img src="placeholder.jpeg" alt="warning sign">
+		<br>
+		<img src="placeholder.jpg" alt="warning sign" width="300" height="300" style="float: right;">
+		<br><br>
 		Curabitur nec consequat nulla. Nullam ornare lobortis dui a aliquet. Aenean aliquet dolor
 		 sit amet eros pretium tristique. Curabitur fringilla, est vitae faucibus lobortis, ante odio congue ex, a posuere est velit eget felis. 
 		 Pellentesque id tellus et urna porttitor malesuada. Donec malesuada tellus metus, eget ultricies purus efficitur ut. Donec non lectus 
 		 mi. Nunc volutpat rutrum tincidunt. Fusce accumsan commodo porta. Ut sit amet porttitor ante, vitae elementum justo. In fringilla 
 		 scelerisque scelerisque. Vivamus a sapien euismod, lobortis ligula a, consequat tellus. Sed consectetur nibh non hendrerit finibus. 
-		Euismod, lobortis ligula a, consequat tellus.
+		Euismod, lobortis ligula a, consequat tellus. Lorem ipsum odor amet, consectetuer adipiscing elit. Quisque lobortis magnis massa tempus, ad curabitur varius. 
+		Mi pharetra aliquam bibendum porttitor litora nisi. Dignissim et a dapibus sagittis consequat tempus. At dapibus ipsum integer sodales 
+		litora. Erat congue varius sem quam ut. Magnis cubilia urna, feugiat himenaeos sociosqu suspendisse. Duis metus montes arcu hac faucibus 
+		iaculis. Venenatis taciti malesuada odio justo tristique non. Nostra proin quisque interdum blandit commodo commodo tristique congue feugiat.
+		<br><br>
+		Eget bibendum senectus volutpat amet libero cras. Taciti placerat elit sociosqu lacus ipsum risus montes ligula sapien. Amet facilisi torquent 
+		ut vulputate finibus euismod facilisis finibus. Vehicula suscipit magnis sapien eget magnis integer. Conubia odio pretium tellus a augue ligula 
+		mauris vel. Molestie consectetur eleifend aenean molestie tincidunt, rhoncus tincidunt. Quam cras aliquam class est maximus mollis risus.
 		</p>
 		<p style="float: right; width: 45%"> <!-- padding-left: 55%" -->
 		RIGHT SIDE	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac sapien libero. Donec rhoncus dapibus fermentum. Fusce ut diam 
@@ -53,8 +62,23 @@
 		 mi. Nunc volutpat rutrum tincidunt. Fusce accumsan commodo porta. Ut sit amet porttitor ante, vitae elementum justo. In fringilla 
 		 scelerisque scelerisque. Vivamus a sapien euismod, lobortis ligula a, consequat tellus. Sed consectetur nibh non hendrerit finibus. 
 		Euismod, lobortis ligula a, consequat tellus.
+		<br><br>
+		Semper quis efficitur torquent ligula facilisi sed et efficitur fusce. Volutpat vivamus cursus ipsum fames sodales. Non a ex mi penatibus tincidunt arcu. 
+		Lacus leo consequat malesuada ac blandit posuere. Congue suscipit finibus congue tempus aenean. Platea efficitur vulputate sodales pharetra duis maximus. 
+		Volutpat justo fermentum sociosqu eleifend pretium neque. Parturient commodo volutpat magnis per neque eget quisque torquent.
+		Mauris penatibus a mattis vehicula sagittis donec sed. Fames consectetur tempus, morbi conubia mus potenti libero ex viverra. Habitant commodo dolor ipsum 
+		auctor primis. Curae feugiat quisque habitasse a ultrices viverra vehicula. Elit cras cras cursus sagittis tempor. Hendrerit mauris nascetur cubilia ridiculus 
+		congue. Varius finibus libero morbi, iaculis consectetur congue aptent dapibus. Sodales lobortis nisi; malesuada lectus himenaeos proin.
+		<br>
+		<img src="placeholder.jpg" alt="warning sign" width="300" height="300" style="float: right;">
+		<br><br>
+		Mauris penatibus a mattis vehicula sagittis donec sed. Fames consectetur tempus, morbi conubia mus potenti libero ex viverra. Habitant commodo dolor ipsum 
+		auctor primis. Curae feugiat quisque habitasse a ultrices viverra vehicula. Elit cras cras cursus sagittis tempor. Hendrerit mauris nascetur cubilia ridiculus 
+		congue. Varius finibus libero morbi, iaculis consectetur congue aptent dapibus. Sodales lobortis nisi; malesuada lectus himenaeos proin.
 		</p>
 	</div>
+	<br><br>
+	<button ></button>
     
     </body>
 </html>
