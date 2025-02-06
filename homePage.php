@@ -26,9 +26,11 @@
 	</div>
 
 	<!-- <div class ="row" style= "margin-right: 5%; margin-left: 5%;"> <a href "http://localhost/precap/homePage.php" style="color: #D6EF9F; padding: 15px"> Home </a> &nbsp <a href "http://localhost/precap/aboutUs.php" style="color: #D6EF9F; padding: 15px"> About Us </a>  &nbsp <a href "http://localhost/precap/LessonIndex.php" style="color: #D6EF9F; padding: 15px"> Lessons </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Empty </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Empty </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Forum </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Help </a> </div><br> -->
-
-	<div class="container">
-
+  <div class="container-fluid">
+  <a href="#" class="badge badge-dark" style="">Login or register</a>
+</div>
+	<div class="container" style="padding-left: 10%">
+  
     <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
     <button class="nav-link" id="aboutUs-tab" data-bs-toggle="tab" data-bs-target="#aboutUs-tab-pane" type="button" role="tab" aria-controls="aboutUs-tab-pane" aria-selected="true">About Us</button>
@@ -70,10 +72,10 @@
     <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #bcbcbc; background-image: url('poisonResume2.3.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 175px 0px;"></button>
     <br>  
       Lesson 3: AI Resume Awareness
-    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #eeebfc; background-image: url('aiAwareness1.2.png'); background-repeat: no-repeat; background-position: center; padding: 100px 0px 200px 0px;"></button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #eeebfc; background-image: url('aiAwareness1.2.png'); background-repeat: no-repeat; background-position: center; padding: 100px 0px 100px 0px;"></button>
     <br><br><br>
     </form>
-  </div> <!-- background-image: url('bias.jpg') -->
+  </div>
   <div class="tab-pane fade" id="lab-tab-pane" role="tabpanel" aria-labelledby="lab-tab" tabindex="0" style="color: #D6EF9F"> 
     <h1>Labs & Quizzes</h1>
     <form>
@@ -86,7 +88,7 @@
   <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0" style="color: #D6EF9F"> <h1>Contacts</h1> <p>Jude Roberts: #123-456-789 <br><br> Michael Poe: #246-802-468
 <br><br> Audrianna Kelly: #098-765-4321 <br><br> Mr. Sherif Abdelhamid: #777-871-0211</p></div>
   <div class="tab-pane fade" id="help-tab-pane" role="tabpanel" aria-labelledby="help-tab" tabindex="0" style="color: #D6EF9F"> <h1>FAQ</h1> </div>
-</div>
+</dTe
 	</div>
 	
 	</body>
