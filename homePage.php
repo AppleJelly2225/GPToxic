@@ -63,7 +63,8 @@
         ut efficitur dolor sagittis. Sed urna purus, feugiat nec dui at, porta condimentum tellus. Etiam feugiat mauris at felis porttitor, at malesuada leo commodo. Sed tempor tortor erat, vitae euismod est aliquam non. Vivamus posuere sem sit amet interdum pretium. Sed vestibulum massa vel feugiat elementum. Mauris 
         in tortor vestibulum, malesuada purus eu, facilisis mauris. Sed lectus dolor, aliquet a aliquet id, sollicitudin sed ante. Cras sed mauris id enim ultrices ultrices ac quis dolor. Praesent ornare tristique massa scelerisque iaculis.</p></div>
   <div class="tab-pane fade" id="lessons-tab-pane" role="tabpanel" aria-labelledby="lessons-tab" tabindex="0" style="color: #D6EF9F"> 
-    <h1>Lessons</h1> <br> 
+    <h1>Lessons</h1>
+    <br> 
     <form>
       Lesson 1: Bias
     <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: black; background-image: url('bias2.1.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" ></button>
@@ -78,12 +79,14 @@
   </div>
   <div class="tab-pane fade" id="lab-tab-pane" role="tabpanel" aria-labelledby="lab-tab" tabindex="0" style="color: #D6EF9F"> 
     <h1>Labs & Quizzes</h1>
+    <br>
     <form>
-          <button type: submit word-wrap: break-word style="background-color: #D6EF9F; padding: 50px 75px; color: black; border-radius: 10px">Who's the robot?(AI patterns)</button>
-          <button type: submit style="background-color: #D6EF9F; padding: 50px 75px; color: black; border-radius: 10px">Dr. Injection (AI Injection Prompts)</button> 
-          <br><br>
-          <button type: submit style="background-color: #D6EF9F; padding: 50px 75px; color: black; border-radius: 10px;">Drawing with AI</button>
-        </form>
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Who's the robot? (AI patterns)</button>
+      <br>
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Dr. Injection (AI injection prompts)</button>
+      <br>
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Drawing with AI</button>
+    </form>
   </div>
   <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0" style="color: #D6EF9F"> <h1>Contacts</h1> <p>Jude Roberts: #123-456-789 <br><br> Michael Poe: #246-802-468
 <br><br> Audrianna Kelly: #098-765-4321 <br><br> Mr. Sherif Abdelhamid: #777-871-0211</p></div>
