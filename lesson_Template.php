@@ -12,7 +12,7 @@
 
         <style>
 			body,h1,h2,h3,h4,h5,p {font-family: "Raleway", sans-serif}
-			.col-sm-4 {background-color: #63666A; color: #E6EEF7;}
+			/* .col-sm-4 {background-color: #63666A; color: #E6EEF7;} */
 		</style>
 		<!--ANIMATIONS! <^u*)-->
 		<style> 

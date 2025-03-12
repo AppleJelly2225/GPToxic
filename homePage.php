@@ -9,25 +9,34 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
             
+    <style>
+      body,h1,h2,h3,h4,h5,p {
+        font-family: "Raleway", sans-serif
+      }
+    /* .col-sm-4 {background-color: #63666A; color: #E6EEF7;} */
+      body {
+        background-image: linear-gradient(to right, #448b33, #232920);
+      }
 
-        <style>
-			body,h1,h2,h3,h4,h5,p {font-family: "Raleway", sans-serif}
-			.col-sm-4 {background-color: #63666A; color: #E6EEF7;}
+      .jumbotron {
+        border-bottom: 2px solid black;
+        height: 240px; color: #D6EF9F;
+        background-image: url('flow.jpg');
+        background-size: cover;
+      }
 		</style>
 		<!--ANIMATIONS! <^u*)-->
-		<style> 
-		</style>
 	</head>
-	<body style = "background-image: linear-gradient(to right, #448b33, #232920);">
+	<body>
 	
-	<div class = "jumbotron" style = "border-bottom: 2px solid black; height: 240px; color: #D6EF9F; background-image: url('flow.jpg'); background-size: cover; ">
+	<div class = "jumbotron">
 		<h1>GPToxic Live Site</h1>
 		<p>Presented by VMI Cadets--Roberts, Kelly, Poe</p>
 	</div>
 
 	<!-- <div class ="row" style= "margin-right: 5%; margin-left: 5%;"> <a href "http://localhost/precap/homePage.php" style="color: #D6EF9F; padding: 15px"> Home </a> &nbsp <a href "http://localhost/precap/aboutUs.php" style="color: #D6EF9F; padding: 15px"> About Us </a>  &nbsp <a href "http://localhost/precap/LessonIndex.php" style="color: #D6EF9F; padding: 15px"> Lessons </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Empty </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Empty </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Forum </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Help </a> </div><br> -->
   <div class="container-fluid">
-  <a href="#" class="badge badge-dark" style="">Login or register</a>
+  <a href="loginPage.php" class="badge badge-dark" style="">Login or register</a>
 </div>
 	<div class="container" style="padding-left: 10%">
   

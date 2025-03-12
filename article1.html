@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GPToxic - Article 1</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            
+        <style>
+			body,h1,h2,h3,h4,h5,p {
+				font-family: "Raleway", sans-serif;
+                color: #BDFCB7;
+			}
+
+			body{
+				background-image: linear-gradient(to right, #448b33, #232920);
+			}
+
+			/* .col-sm-4 {
+				background-color: #63666A; color: #E6EEF7;
+			} */
+
+			.OtherBody {
+				position: absolute; 
+				top: 50%; 
+				left: 50%; 
+				transform: translate(-50%, -20%);
+				margin: auto;
+				text-align: center;
+			}
+
+            .jumbotron {
+                border-bottom: 2px solid black;
+                height: 240px; color: #D6EF9F;
+                background-image: url('flow.jpg');
+                background-size: cover;
+            }
+
+			input[type=submit] {
+				font-family: Oswald;
+				font-size: 25px;
+                /* padding: 12px 20px; */
+                width: 250px;
+                color: #BDFCB7;
+				background-color: #367C27;
+                border: none;
+				float: right;
+			}
+			/* OPTIONAL \/\/\/  */
+			
+			    /* button:hover{
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+			} */
+
+            #leftSide, #rightSide{
+                padding: 15px;
+                color: #BDFCB7;
+                font-size: large;
+            }
+
+		</style>
+    </head>
+    <body>
+        <div class = "jumbotron">
+            <h1>GPToxic Live Site</h1>
+            <p>Presented by VMI Cadets--Roberts, Kelly, Poe</p>
+        </div>
+        <h2>Lesson 1: Prompt Injection</h2>
+        <div class="row">
+		    <br>
+            <div id="leftSide" class="col-sm-6" style="overflow-wrap: break-word;">
+                <p>
+                    Prompt Injection is one of the most accessible options available to malicious users; therefore, 
+                    it is one of the most important to understand and protect against. In the context of Large Language Models, 
+                    prompt injection can be described, simply, as any attempt by the user to insert new instructions 
+                    into the model prompt rather than a legitimate input in the prompt field to lead the LLM into an unintended response. 
+                    It can be done to gather user data, remove guide rails set by system prompts to provide safe/acceptable responses, 
+                    or take over complete control of the system. Most concerningly, this can be done in natural language, such as 
+                    English, due to the nature of LLMs, which is especially alarming to professionals seeking to use AI in their businesses 
+                    because it gives every user the capability to interfere with LLM operations, inherently. <br>
+                    <img src="articleIMG.webp" alt="malicious prompt going through an LLM application, producing a system and the malicious prompt, going into an LLM system" width="400" height="300" style="float: right;">
+                    <br>
+                    Prompt injection is a type of prompt modification attack that involves the malicious insertion of prompts 
+                    or requests in LLM-based environments that could lead to unintended actions and/or the disclosure of sensitive 
+                    or secret information. It looks and behaves in a similar manner to an SQL injection where the malicious commands 
+                    are embedded into a regular input and thus produces malicious outcomes on Language Models like ChatGPT and other LLMs. 
+                    The malicious outcomes can vary from propagation of disinformation, biased output, the exposure of private data/information 
+                    and leverage to exploit systems connected to the LLM.
+                </p> 
+                </div>
+            <div id="rightSide" class="col-sm-6" style="overflow-wrap: break-word;">
+                <p>
+                    Anyone using LLMs in their application should be actively working to prevent malicious users in order to protect their users’ 
+                    data as well as their own assets and reputation.Developers are the first line of defense in mitigating prompt injection. 
+                    They must utilize proactive input handling practices in their code to prevent malicious actors from entering their code. Improper 
+                    input handling is like leaving the front door wide open for the mailman,dropping off a package, neighbors, dropping off a cake, 
+                    or the delivery person delivering your food. Their purpose is understood, yet any one of them might enter or leave with something 
+                    not meant for them if they become tempted, and even if they are to be trusted, criminals might feel invited to walk in and take 
+                    full advantage of your negligence. It is best to leave the door locked and address each case appropriately. <br><br>
+                    In summary, prompt injection is a very serious concern for any individual or organization seeking to utilize LLMs in their projects. 
+                    It is relatively easy to perform but it can cause catastrophic issues. Ultimately, it is important to consider and attempt to mitigate 
+                    this type of attack before using an LLM in any project by using proper input handling techniques. Now that you are aware of the possibility 
+                    and potential impact of this attack, consider how you might mitigate it on your own or read our follow up article <a href = “#”>Mitigating Prompt Injections 
+                    in LLM-Based Projects</a>.
+                </p>
+            </div>
+        </div>
+        <input type="submit" name="login" value="GO TO LAB" style="border-width: medium; border-color: white;"></input>
+    </body>
+</html>
