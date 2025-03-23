@@ -10,7 +10,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
             
         <style>
-			body,h1,h2,h3,h4,h5,p {
+			body,h1,h2,h3,h4,h5 {
 				font-family: "Raleway", sans-serif;
                 color: #BDFCB7;
 			}
@@ -27,12 +27,15 @@
             }
 
             input[type=submit] {
-				font-family: Oswald;
+				/* font-family: Oswald; */
 				font-size: 25px;
                 /* padding: 12px 20px; */
-                width: 250px;
-                color: #BDFCB7;
-				background-color: #367C27;
+                height: 138px;
+                width: 280px;
+                border: white;
+                border: 5px solid black;
+                color: #D6EF9F;
+				background-color: #378027;
                 border: none;
 				float: right;
 			}
@@ -40,33 +43,68 @@
             #questionBox {
                 background-color: #E2F2C0;
                 color: #232920;
+                margin: auto;
+                width: 60%;
+				/* transform: translate(-50%, -20%); */
+				text-align: center;
+                width: 90%;
+                /* height: 20%; */
+                
+            }
+            
+            #leftSide{
+                font-size: 40px;
             }
 
-            #leftside{
-                /* align-content: center; */
+            #rightSide{
+                font-size: 25px;
             }
 
             #leftSide, #rightSide{
                 padding: 15px;
-                /* color: #232920; */
-                font-size: large;
             }
+
+            #answerBox {
+                margin: auto;
+                padding: 15px 0 15px 15px;
+            }
+
 
         </style>
     <body>
         <div class = "jumbotron">
             <h1>GPToxic Live Site</h1>
-            <p>Presented by VMI Cadets--Roberts, Kelly, Poe</p>
+            <p style="color: #BDFCB7;">Presented by VMI Cadets--Roberts, Kelly, Poe</p>
         </div>
         
-        <div id="questionBox">
+        <div id="questionBox" class="row">
             
-            <div id="leftSide" class="col-sm-6">
-                Distinguish Prompt Injection from Typical Prompt
+            <div id="leftSide" class="col-md-6">
+                <p>left side</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore</p>
             </div>
-
-            <div id="rightSide" class="col-sm-6">
-                abc
+            <div id="rightSide" class="col-md-6">
+                <p>right side</p>
+                <p>[1] Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore</p>
+                <p>[2] Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore</p>
+                <p>[3] Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore</p>
+            </div>
+        </div>
+        <br>
+        <!-- <hr style="border-top: 5px solid black"> May not need or want -->
+        <br>
+        <div id="answerBox" class="row">
+            <div id="button" class="col-md-3">
+                <input type="submit" id="btn1" value="TEST 1"></input>
+            </div>
+            <div id="button" class="col-md-3">
+                <input type="submit" id="btn2" value="TEST 2"></input>
+            </div>
+            <div id="button" class="col-md-3">
+                <input type="submit" id="btn3" value="TEST 3"></input>
+            </div>
+            <div id="button" class="col-md-3">
+                <input type="submit" id="btn4" value="TEST 4"></input>
             </div>
         </div>
     </body>

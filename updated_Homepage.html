@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GPToxic</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            
+		<style>
+			/* .col-sm-4 {background-color: #63666A; color: #E6EEF7;} */
+			
+			body,h1,h2,h3,h4,h5,p {
+				font-family: "Raleway", sans-serif
+			}
+			body {
+				background-image: linear-gradient(to right, #448b33, #232920);
+			}
+			.jumbotron {
+				border-bottom: 2px solid black;
+				height: 240px; color: #D6EF9F;
+				background-image: url('flow.jpg');
+				background-size: cover;
+			}
+		</style>
+		<!--ANIMATIONS! <^u*)-->
+	</head>
+	<body>
+		<div class = "jumbotron">
+			<h1>GPToxic Live Site</h1>
+			<p>Presented by VMI Cadets--Roberts, Kelly, Poe</p>
+		</div>
+	<!-- <div class ="row" style= "margin-right: 5%; margin-left: 5%;"> <a href "http://localhost/precap/homePage.php" style="color: #D6EF9F; padding: 15px"> Home </a> &nbsp <a href "http://localhost/precap/aboutUs.php" style="color: #D6EF9F; padding: 15px"> About Us </a>  &nbsp <a href "http://localhost/precap/LessonIndex.php" style="color: #D6EF9F; padding: 15px"> Lessons </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Empty </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Empty </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Forum </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Help </a> </div><br> -->
+		<div class="container">
+			<a href="loginPage.php" class="badge badge-dark" style="">Login or register</a>  
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<li class="nav-item" role="presentation">
+					<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="aboutUs-tab" data-bs-toggle="tab" data-bs-target="#aboutUs-tab-pane" type="button" role="tab" aria-controls="aboutUs-tab-pane" aria-selected="false">About Us</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="lessons-tab" data-bs-toggle="tab" data-bs-target="#lessons-tab-pane" type="button" role="tab" aria-controls="lessons-tab-pane" aria-selected="false">Lessons</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="lab-tab" data-bs-toggle="tab" data-bs-target="#lab-tab-pane" type="button" role="tab" aria-controls="lab-tab-pane" aria-selected="false">Labs & Quizzes</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="help-tab" data-bs-toggle="tab" data-bs-target="#help-tab-pane" type="button" role="tab" aria-controls="help-tab-pane" aria-selected="false">Help</button>
+				</li>  
+			</ul>
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0" style="color: #D6EF9F"> 
+					<h1>Home</h1> 
+					<p>
+						Welcome to GPToxic--Web Application, Public Service Announcement (PSA), and Learning Management System (LMS). We creators of this site were inspired to start this project after doing some research into the automation of hiring workflows as well as seeing our own peers struggle finding jobs in this new AI landscape that seems to pervade so many online interactions but especially resume screening for job openings. In our research, we found many concerning aspects of AI that individuals and organizations should be aware of before they begin implementing this technology. Therefore, we created this site to educate the public and offer free learning resources for anyone interested in the efficacious deployment of AI technology for personal or industrial use. Specifically, we focus on the most prevalent contemporary AI technologyâ€“Large Language Models (LLMs). 
+						</br></br>
+						LLM is the broad term for models like ChatGPT, Claude, Gemini, etc. These technologies are built upon Natural Language Processing capabilities which stem from Deep Learning algorithms which are complex compartmentalized networks of mostly Supervised Machine Learning algorithms. More simply, LLMs are large models of language data; they connect words or tokens to other similar words, and they string words together based on context. They learn by training on large sets of text from the internet, books, and human speech, and they are given the correct answer to learn from and understand what words typically go together in various specific contexts. This is the main idea that LLMs are built and trained upon. After sufficient training, they become generalizable and can be further tuned with more specific instructions and training for specific tasks.
+						</br></br>
+						That probably does not make perfect sense to you, especially if this is your first exposure to LLM concepts. Do not worry, you will find plenty of information regarding these concepts, in detail, throughout our articles, labs, and community blog. We hope you gain a better understanding of this technology, and even if you do not learn exactly how it works, you should gain a new understanding of how to get the most out of it in the safest, most-efficient ways possible by learning about the benefits and pitfalls associated with this technology. Enjoy the free content! 
+					</p>
+				</div>
+				<div class="tab-pane fade" id="aboutUs-tab-pane" role="tabpanel" aria-labelledby="aboutUs-tab" tabindex="0" style="color: #D6EF9F"> <h1>About Us</h1> <p>Jude Roberts: Researcher, head software engineer, scrum master<br>
+					About Jude: urna purus, feugiat nec dui at, porta condimentum tellus. Etiam feugiatmauris at felis porttitor, at malesuada leo commodo. Sed tempor tortor erat, vitae euismod est aliquam non. Vivamus posuere sem sit amet interdum pretium. Sed vestibulum massa vel feugiat elementum. Mauris in tortor
+					vestibulum, malesuada purus eu, facilisis mauris. Sed lectus dolor, aliquet a aliquet id, sollicitudin sed ante. Cras sed mauris id enim ultrices ultrices ac quis dolor. Praesent ornare tristique massa scelerisque iaculis. 
+					Vestibulum ornare dui arcu, ut semper ex gravida et. Sed viverra erat ligula, eget placerat ante euismod sit amet. Donec commodo, tellus in convallis egestas, tellus diam volutpat dolor, et fringilla dolor erat eget nisi. 
+					Vivamus pellentesque leo nisl, sit amet tincidunt lectus ullamcorper quis.</p> <br> <p>Michael Poe: Document specialist & product owner <br> About Michael: Fusce ullamcorper viverra lectus nec posuere. Duis aliquet purus nec dignissim ultrices. Donec vitae suscipit lorem. Vestibulum cursus vel neque sit amet 
+					aliquam. Phasellus ac ligula eu felis aliquet efficitur. Proin porta, justo eget molestie dapibus, ante nisi dignissim lacus, ut euismod sapien ante in dui. Nam dictum aliquet consectetur. Aliquam sagittis 
+					porttitor turpis non ullamcorper. Sed pharetra, justo ut auctor cursus, risus nulla tincidunt sem, vitae mollis nibh ex iaculis eros.</p> <br> <p>Audrianna Kelly: UX/UI specialist & software engineer <br> About Audrianna: Vestibulum ornare dui arcu, ut semper ex gravida et. Sed viverra erat ligula, eget placerat 
+					ante euismod sit amet. Donec commodo, tellus in convallis egestas, tellus diam volutpat dolor, et fringilla dolor erat eget nisi. Vivamus pellentesque leo nisl, sit amet tincidunt lectus ullamcorper quis. Fusce ullamcorper viverra lectus nec posuere. Duis aliquet purus nec dignissim ultrices. Donec vitae
+					suscipit lorem. Vestibulum cursus vel neque sit amet aliquam. Phasellus ac ligula eu felis aliquet efficitur. Proin porta, justo eget molestie dapibus, ante nisi dignissim lacus, ut euismod sapien ante in dui. Nam dictum aliquet consectetur. Aliquam sagittis porttitor turpis non ullamcorper. Sed pharetra,
+					justo ut auctor cursus, risus nulla tincidunt sem, vitae mollis nibh ex iaculis eros. <br><br> Sherif Abdelhamid: Project advisor/supervisor <br> About Sherif: Curabitur ut luctus dui, vitae rutrum felis. Aliquam ut nisi vel enim ullamcorper mattis vitae id libero. Etiam ultrices leo bibendum ex ultrices, 
+					ut efficitur dolor sagittis. Sed urna purus, feugiat nec dui at, porta condimentum tellus. Etiam feugiat mauris at felis porttitor, at malesuada leo commodo. Sed tempor tortor erat, vitae euismod est aliquam non. Vivamus posuere sem sit amet interdum pretium. Sed vestibulum massa vel feugiat elementum. Mauris 
+					in tortor vestibulum, malesuada purus eu, facilisis mauris. Sed lectus dolor, aliquet a aliquet id, sollicitudin sed ante. Cras sed mauris id enim ultrices ultrices ac quis dolor. Praesent ornare tristique massa scelerisque iaculis.</p>
+				</div>
+				<div class="tab-pane fade" id="lessons-tab-pane" role="tabpanel" aria-labelledby="lessons-tab" tabindex="0" style="color: #D6EF9F"> 
+					<h1>Lessons</h1>
+					<br> 
+					<form>
+					  Lesson 1: Bias
+					<button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: black; background-image: url('bias2.1.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" ></button>
+					<br>  
+					  Lesson 2: Poisoning
+					<button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #bcbcbc; background-image: url('poisonResume2.3.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 175px 0px;"></button>
+					<br>  
+					  Lesson 3: AI Resume Awareness
+					<button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #eeebfc; background-image: url('aiAwareness1.2.png'); background-repeat: no-repeat; background-position: center; padding: 100px 0px 100px 0px;"></button>
+					<br><br><br>
+					</form>
+				</div>
+				<div class="tab-pane fade" id="lab-tab-pane" role="tabpanel" aria-labelledby="lab-tab" tabindex="0" style="color: #D6EF9F"> 
+					<h1>Labs & Quizzes</h1>
+					<br>
+					<form>
+					  <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Who's the robot? (AI patterns)</button>
+					  <br>
+					  <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Dr. Injection (AI injection prompts)</button>
+					  <br>
+					  <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Drawing with AI</button>
+					</form>
+				</div>
+				<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0" style="color: #D6EF9F"> <h1>Contacts</h1> <p>Jude Roberts: #123-456-789 <br><br> Michael Poe: #246-802-468
+					<br><br> Audrianna Kelly: #098-765-4321 <br><br> Mr. Sherif Abdelhamid: #777-871-0211</p>
+				</div>
+				<div class="tab-pane fade" id="help-tab-pane" role="tabpanel" aria-labelledby="help-tab" tabindex="0" style="color: #D6EF9F"> <h1>FAQ</h1> </div>
+			</div>
+		</div>
+	</body>
+</html>
