@@ -30,16 +30,17 @@
 				font-size: 25px;
                 height: 138px;
                 width: 280px;
-                border: 5px solid white;
+                /* border: white; */
+                /* border: 5px solid white; */
                 color: #D6EF9F;
 				background-color: #378027;
+				/* float: right; */
 			}
 
             #questionBox {
                 background-color: #E2F2C0;
                 color: #232920;
                 margin: auto;
-                width: 60%;
 				/* transform: translate(-50%, -20%); */
 				text-align: center;
                 width: 90%;
@@ -61,7 +62,7 @@
 
             #answerBox {
                 margin: auto;
-                padding: 15px 100px 15px 100px;
+                /* padding: 15px 100px 15px 100px; */
             }
 
 
@@ -75,32 +76,40 @@
         <div id="questionBox" class="row">
             
             <div id="leftSide" class="col-md-6">
-                <p>left side</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore</p>
+                <!-- <p>left side</p> -->
+                <br>
+                <p>Distinguish Prompt Injection from Typical Prompt</p>
             </div>
             <div id="rightSide" class="col-md-6">
-                <p>right side</p>
-                <p>[1] Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore</p>
-                <p>[2] Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore</p>
-                <p>[3] Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore</p>
+                <!-- <p>right side</p> -->
+                <br>
+                <p>[1] Scrumptious Protein-packed Blueberry Muffin Recipe</p>
+                <p>[2] Artist Data</p>
+                <p>[3] Create Bee Art</p>
             </div>
         </div>
         <br>
         <!-- <hr style="border-top: 5px solid black"> May not need or want -->
         <br>
         <div id="answerBox" class="row">
-            <div id="button" class="col-md-3">
-                <input class="border border-white" type="submit" id="btn1" value="TEST 1"></input>
+            <div id="button" class="col-md-4">
+                [1]
+                <br>
+            `   <input type="image" src="opt1.png" alt="Submit" width="453px" height="221px"></input>
             </div>
-            <div id="button" class="col-md-3">
-                <input class="border border-white" type="submit" id="btn2" value="TEST 2"></input>
+            <div id="button" class="col-md-4">
+                [2]
+                <br>
+            `   <input type="image" src="opt2.png" alt="Submit" width="400px" height="342px"></input>
             </div>
-            <div id="button" class="col-md-3">
-                <input class="border border-white" type="submit" id="btn3" value="TEST 3"></input>
+            <div id="button" class="col-md-4">
+                [3]
+                <br>
+            `   <input type="image" src="opt3-2.png" alt="Submit" width="436px" height="241px"></input>
             </div>
-            <div id="button" class="col-md-3">
+            <!-- <div id="button" class="col-md-3">
                 <input class="border border-white" type="submit" id="btn4" value="TEST 4"></input>
-            </div>
+            </div> -->
         </div>
     </body>
 </html>

@@ -75,13 +75,13 @@
     <h1>Lessons</h1>
     <br> 
     <form>
-      Lesson 1: Bias
+      Lesson 1: Prompt Injection
     <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: black; background-image: url('bias2.1.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" ></button>
     <br>  
-      Lesson 2: Poisoning
+      Lesson 2: Prompt Engineering
     <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #bcbcbc; background-image: url('poisonResume2.3.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 175px 0px;"></button>
     <br>  
-      Lesson 3: AI Resume Awareness
+      Lesson 3: AI Poisoning
     <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #eeebfc; background-image: url('aiAwareness1.2.png'); background-repeat: no-repeat; background-position: center; padding: 100px 0px 100px 0px;"></button>
     <br><br><br>
     </form>
@@ -90,11 +90,11 @@
     <h1>Labs & Quizzes</h1>
     <br>
     <form>
-      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Who's the robot? (AI patterns)</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Dr. Injection (injection prompts)</button>
       <br>
-      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Dr. Injection (AI injection prompts)</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Being an Engineer (Prompt Engineering)</button>
       <br>
-      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Drawing with AI</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Understanding AI (AI awareness)</button>
     </form>
   </div>
   <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0" style="color: #D6EF9F"> <h1>Contacts</h1> <p>Jude Roberts: #123-456-789 <br><br> Michael Poe: #246-802-468
