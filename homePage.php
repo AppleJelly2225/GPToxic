@@ -18,6 +18,17 @@
         background-image: linear-gradient(to right, #448b33, #232920);
       }
 
+      /* input[type=submit] {
+            font-family: Oswald;
+            font-size: 25px;
+            padding: 12px 20px;
+            width: 250px;
+            color: #BDFCB7;
+            background-color: #367C27;
+            border: none;
+            float: right;
+        } */
+
       .jumbotron {
         border-bottom: 2px solid black;
         height: 240px; color: #D6EF9F;
@@ -76,7 +87,9 @@
     <br> 
     <form>
       Lesson 1: Prompt Injection
-    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: black; background-image: url('bias2.1.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" ></button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: black; background-image: url('injection1-2.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 75px 0px;" >
+    <a href = "article1.html"></a>
+    </button>
     <br>  
       Lesson 2: Prompt Engineering
     <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #bcbcbc; background-image: url('poisonResume2.3.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 175px 0px;"></button>
@@ -90,7 +103,9 @@
     <h1>Labs & Quizzes</h1>
     <br>
     <form>
-      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Dr. Injection (injection prompts)</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Dr. Injection (injection prompts)
+        
+      </button>
       <br>
       <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Being an Engineer (Prompt Engineering)</button>
       <br>

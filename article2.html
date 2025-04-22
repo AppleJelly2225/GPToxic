@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body,h1,h2,h3,h4,h5,p {
+            font-family: "Raleway", sans-serif;
+            color: #BDFCB7;
+        }
+
+        body{
+            background-image: linear-gradient(to right, #448b33, #232920);
+        }
+
+        /* .col-sm-4 {
+            background-color: #63666A; color: #E6EEF7;
+        } */
+
+        .OtherBody {
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -20%);
+            margin: auto;
+            text-align: center;
+        }
+
+        .jumbotron {
+            border-bottom: 2px solid black;
+            height: 240px; color: #D6EF9F;
+            background-image: url('flow.jpg');
+            background-size: cover;
+        }
+
+        input[type=submit] {
+            font-family: Oswald;
+            font-size: 25px;
+            /* padding: 12px 20px; */
+            width: 250px;
+            color: #BDFCB7;
+            background-color: #367C27;
+            border: none;
+            float: right;
+        }
+        /* OPTIONAL \/\/\/  */
+        
+            /* button:hover{
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        } */
+
+        #leftSide, #rightSide{
+            padding: 15px;
+            color: #BDFCB7;
+            font-size: larger;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class = "jumbotron">
+            <h1>GPToxic Live Site</h1>
+            <p>Presented by VMI Cadets--Roberts, Kelly, Poe</p>
+        </div>
+        
+        <div class = "container">
+        
+        <h2>Lesson 2: Prompt Engineering</h2>
+        <div class="row">
+		    <br>
+            <div id="leftSide" class="col-sm-6" style="overflow-wrap: break-word;">
+                <p>
+                    Many people do not realize that the prompt they provide LLMs is crucial to unlocking their full potential. Careless prompt construction might even make the model considerably worse according to some research. The concept of constructing better prompts is known as prompt engineering, and it is one of the most discussed concepts surrounding LLM usage today because it can have drastic effects on the outcomes of LLM implementations. 
+                    When constructing the perfect prompt, there are many concepts to consider, and they mostly amount to being direct with the model–telling it what to do rather than making a vague statement–and being specific yet concise–giving it as many details as it needs without exhausting its capabilities. Usually, however, there is no such thing as a perfect prompt. The best results come from iteratively refining prompts and improving the output after receiving the first response. Nonetheless, there are some things you can do to start off on the right foot.
+                    Prompt engineering is about more than the instruction itself; it is about specific context, subtasks, and other important details. Instructions should be precise and thorough. Additionally, prompts might include examples. Some professionals suggest telling the LLM what its role is and the goals that it should accomplish. Ultimately, though,these ideas are just ways to consider thinking about prompts in the most direct, specific, concise manner possible–these are key to prompt engineering. LLMs have limits, so prompt engineers have to find the virtue between requesting too much from the model and not providing enough context. 
+                    Those limits vary between models and tasks, but a few general guidelines include avoiding real people, asking for charged opinions, creating vulgar content, creating or processing exceedingly large items, and chaining complex tasks on top of each other. When performing large or complex tasks, try breaking them up into smaller tasks to monitor the model each step of the way. Ask follow up questions with different wording to ensure that it did not hallucinate. 
+                    <br>
+                    <!-- <img src="" style="padding:10px;" alt="malicious prompt going through an LLM application, producing a system and the malicious prompt, going into an LLM system" width="400" height="300" style="float: right;"> -->
+                </p> 
+                </div>
+            <div id="rightSide" class="col-sm-6" style="overflow-wrap: break-word;">
+                <p>
+                    OpenAI suggests that users might benefit from prompting ChatGPT, specifically, with instructions to include references. This ensures that users can monitor and validate the output they received. 
+                    It is important to be especially careful to not introduce controversy or bias when prompting the model. Some research suggests that bias can propagate from users to the model which weakens its results. In short, using neutral and thorough prompts and double checking results is the best course of action to avoid the inherent limitations contained within these models.
+                    There are many specific contexts in which LLMs are useful, but consider prompt engineering in the context of image creation, text generation, and software development. When creating images, be sure to include distinctions like foreground and background elements, style, composition, details, and colors. Avoid profane and controversial topics, especially those depicting real people. When developing software consider the requirements, user stories, language, environment, accessibility, and anything else we consider when engineering software. When generating text or conversing with an LLM, use a direct but conversational tone and give it context as to what you hope to achieve from the conversation or other general text processing tasks. In all cases be thorough and precise while not asking for too much.
+                    To conclude, prompt engineering is one of the most important concepts to master when using LLM technologies. It can make results much better or worse based on proper prompt construction. The keys are to be direct and specific yet concise while avoiding language that might indirectly mislead the model or exhaust its capabilities. In these latter cases, LLMs will often return wrong information which can have serious effects, especially on organizations relying on this technology to automate large aspects of their workflows. Ultimately, prompt engineering is a virtue that varies depending on the specific task, but anyone can use these tips and understandings to get more out of LLMs while avoiding certain pitfalls that could have serious detrimental effects.
+                    <!-- <a href = “#”>Mitigating Prompt Injections in LLM-Based Projects</a>. -->
+                </p>
+            </div>
+        </div>
+        <a href = "lab2.php"><input type="submit" value="GO TO LAB" style="border-width: medium; border-color: white;"></input></a>
+    </div>
+    </body>
+</html>
+
