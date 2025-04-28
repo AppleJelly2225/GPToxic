@@ -175,7 +175,7 @@
                                 <p>This prompt is very specific, but it does not expect the LLM to make the impossible, and it does not violate any system prompts</p>
                             </div>
                             <div class="modal-footer">
-                            <button type="button" class="btn btn-default"><a href="homepage.php">Go Home</a></button>
+                            <a href="homepage.php"><button type="button" class="btn btn-default">Go Home</button></a>
                             </div>
                         </div>
                     </div>

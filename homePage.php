@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -31,9 +35,19 @@
 
       .jumbotron {
         border-bottom: 2px solid black;
-        height: 240px; color: #D6EF9F;
+        height: 240px; 
+        color: #D6EF9F;
         background-image: url('flow.jpg');
         background-size: cover;
+      }
+
+      #sidebar {
+        display: inline-block; 
+        float: left; 
+        max-width: 10%; 
+        margin-left: 3%; 
+        background-color: #D6EF9F; 
+        padding: 25px;
       }
 		</style>
 		<!--ANIMATIONS! <^u*)-->
@@ -46,14 +60,42 @@
 	</div>
 
 	<!-- <div class ="row" style= "margin-right: 5%; margin-left: 5%;"> <a href "http://localhost/precap/homePage.php" style="color: #D6EF9F; padding: 15px"> Home </a> &nbsp <a href "http://localhost/precap/aboutUs.php" style="color: #D6EF9F; padding: 15px"> About Us </a>  &nbsp <a href "http://localhost/precap/LessonIndex.php" style="color: #D6EF9F; padding: 15px"> Lessons </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Empty </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Empty </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Forum </a> &nbsp <a href "*" style="color: #D6EF9F; padding: 15px"> Help </a> </div><br> -->
-  <div class="container-fluid">
-  <a href="loginPage.php" class="badge badge-dark" style="">Login or register</a>
-</div>
-	<div class="container" style="padding-left: 10%">
+  <div id = "sidebar" class = "sidebar">
+    <div class = "logono">
+  
+      <?php
+        if($_SESSION["log"] == "y") { ?>
+          <img src = "robot_icon1-3.png" style = "max-width: 100%;"> 
+          <br>
+          <a href="logoutHandler.php" class="badge badge-dark" style="">Logout</a>
+          <?php
+        } 
+        else { ?> 
+          <a href="loginPage.php" class="badge badge-dark" style="">Login or register</a>
+        <?php
+        } 
+
+      ?>  
+    </div>
+    <div class = "aboutus" style="margin-top: 50px;">
+      <h4 style="text-decoration: underline;">Team Members</h4>
+      <br>
+      <p>
+          Jude Roberts: Scrum master, Researcher
+          <br><br>
+          Micheal Poe: Product Owner, Doc. specialist
+          <br><br>
+          Audrianna Kelly: UI/UX specialist, Software developer
+      </p>
+
+    </div>
+  </div>
+
+	<div class="containo" style="display: inline-block; float: right; width: 80%; margin-left: 3%; margin-right: 3%;">
   
     <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="aboutUs-tab" data-bs-toggle="tab" data-bs-target="#aboutUs-tab-pane" type="button" role="tab" aria-controls="aboutUs-tab-pane" aria-selected="true">About Us</button>
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
   </li>
   <li class="nav-item" role="presentation">
     <button class="nav-link" id="lessons-tab" data-bs-toggle="tab" data-bs-target="#lessons-tab-pane" type="button" role="tab" aria-controls="lessons-tab-pane" aria-selected="true">Lessons</button>
@@ -70,46 +112,48 @@
   
 </ul>
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade" id="aboutUs-tab-pane" role="tabpanel" aria-labelledby="aboutUs-tab" tabindex="0" style="color: #D6EF9F"> <h1>About Us</h1> <p>Jude Roberts: Researcher, head software engineer, scrum master<br>
-        About Jude: urna purus, feugiat nec dui at, porta condimentum tellus. Etiam feugiatmauris at felis porttitor, at malesuada leo commodo. Sed tempor tortor erat, vitae euismod est aliquam non. Vivamus posuere sem sit amet interdum pretium. Sed vestibulum massa vel feugiat elementum. Mauris in tortor
-        vestibulum, malesuada purus eu, facilisis mauris. Sed lectus dolor, aliquet a aliquet id, sollicitudin sed ante. Cras sed mauris id enim ultrices ultrices ac quis dolor. Praesent ornare tristique massa scelerisque iaculis. 
-        Vestibulum ornare dui arcu, ut semper ex gravida et. Sed viverra erat ligula, eget placerat ante euismod sit amet. Donec commodo, tellus in convallis egestas, tellus diam volutpat dolor, et fringilla dolor erat eget nisi. 
-        Vivamus pellentesque leo nisl, sit amet tincidunt lectus ullamcorper quis.</p> <br> <p>Michael Poe: Document specialist & product owner <br> About Michael: Fusce ullamcorper viverra lectus nec posuere. Duis aliquet purus nec dignissim ultrices. Donec vitae suscipit lorem. Vestibulum cursus vel neque sit amet 
-        aliquam. Phasellus ac ligula eu felis aliquet efficitur. Proin porta, justo eget molestie dapibus, ante nisi dignissim lacus, ut euismod sapien ante in dui. Nam dictum aliquet consectetur. Aliquam sagittis 
-        porttitor turpis non ullamcorper. Sed pharetra, justo ut auctor cursus, risus nulla tincidunt sem, vitae mollis nibh ex iaculis eros.</p> <br> <p>Audrianna Kelly: UX/UI specialist & software engineer <br> About Audrianna: Vestibulum ornare dui arcu, ut semper ex gravida et. Sed viverra erat ligula, eget placerat 
-        ante euismod sit amet. Donec commodo, tellus in convallis egestas, tellus diam volutpat dolor, et fringilla dolor erat eget nisi. Vivamus pellentesque leo nisl, sit amet tincidunt lectus ullamcorper quis. Fusce ullamcorper viverra lectus nec posuere. Duis aliquet purus nec dignissim ultrices. Donec vitae
-        suscipit lorem. Vestibulum cursus vel neque sit amet aliquam. Phasellus ac ligula eu felis aliquet efficitur. Proin porta, justo eget molestie dapibus, ante nisi dignissim lacus, ut euismod sapien ante in dui. Nam dictum aliquet consectetur. Aliquam sagittis porttitor turpis non ullamcorper. Sed pharetra,
-        justo ut auctor cursus, risus nulla tincidunt sem, vitae mollis nibh ex iaculis eros. <br><br> Sherif Abdelhamid: Project advisor/supervisor <br> About Sherif: Curabitur ut luctus dui, vitae rutrum felis. Aliquam ut nisi vel enim ullamcorper mattis vitae id libero. Etiam ultrices leo bibendum ex ultrices, 
-        ut efficitur dolor sagittis. Sed urna purus, feugiat nec dui at, porta condimentum tellus. Etiam feugiat mauris at felis porttitor, at malesuada leo commodo. Sed tempor tortor erat, vitae euismod est aliquam non. Vivamus posuere sem sit amet interdum pretium. Sed vestibulum massa vel feugiat elementum. Mauris 
-        in tortor vestibulum, malesuada purus eu, facilisis mauris. Sed lectus dolor, aliquet a aliquet id, sollicitudin sed ante. Cras sed mauris id enim ultrices ultrices ac quis dolor. Praesent ornare tristique massa scelerisque iaculis.</p></div>
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0" style="color: #D6EF9F">   
+  
+  <h1>Home</h1> 
+					<p>
+						Welcome to GPToxic--Web Application, Public Service Announcement (PSA), and Learning Management System (LMS). We creators of this site were inspired to start this project after doing some research into the automation of hiring workflows as well as seeing our own peers struggle finding jobs in this new AI landscape that seems to pervade so many online interactions but especially resume screening for job openings. In our research, we found many concerning aspects of AI that individuals and organizations should be aware of before they begin implementing this technology. Therefore, we created this site to educate the public and offer free learning resources for anyone interested in the efficacious deployment of AI technology for personal or industrial use. Specifically, we focus on the most prevalent contemporary AI technologyâ€“Large Language Models (LLMs). 
+						</br></br>
+						LLM is the broad term for models like ChatGPT, Claude, Gemini, etc. These technologies are built upon Natural Language Processing capabilities which stem from Deep Learning algorithms which are complex compartmentalized networks of mostly Supervised Machine Learning algorithms. More simply, LLMs are large models of language data; they connect words or tokens to other similar words, and they string words together based on context. They learn by training on large sets of text from the internet, books, and human speech, and they are given the correct answer to learn from and understand what words typically go together in various specific contexts. This is the main idea that LLMs are built and trained upon. After sufficient training, they become generalizable and can be further tuned with more specific instructions and training for specific tasks.
+						</br></br>
+						That probably does not make perfect sense to you, especially if this is your first exposure to LLM concepts. Do not worry, you will find plenty of information regarding these concepts, in detail, throughout our articles, labs, and community blog. We hope you gain a better understanding of this technology, and even if you do not learn exactly how it works, you should gain a new understanding of how to get the most out of it in the safest, most-efficient ways possible by learning about the benefits and pitfalls associated with this technology. Enjoy the free content! 
+					</p>
+        </div>  
   <div class="tab-pane fade" id="lessons-tab-pane" role="tabpanel" aria-labelledby="lessons-tab" tabindex="0" style="color: #D6EF9F"> 
     <h1>Lessons</h1>
     <br> 
-    <form>
       Lesson 1: Prompt Injection
-    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: black; background-image: url('injection1-2.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 75px 0px;" >
-    <a href = "article1.html"></a>
-    </button>
+      <a href = "article1.html">
+        <button type="button" class="btn btn-primary btn-sm btn-block" style="background-color: #cee1ff; background-image: url('injection_lock1-3.png'); background-repeat: no-repeat; background-position: center; padding: 100px 0px 100px 0px; width:70%;" >
+    </button></a>
     <br>  
       Lesson 2: Prompt Engineering
-    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #bcbcbc; background-image: url('poisonResume2.3.png'); background-repeat: no-repeat; background-position: center; padding: 75px 0px 175px 0px;"></button>
+      <a href = "article2.html">
+    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #058083; background-image: url('engineering_article1-6.png'); background-repeat: no-repeat; background-position: center; padding: 0px 0px 230px; width:70%;"></button>
+    </a>
     <br>  
       Lesson 3: AI Poisoning
-    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #eeebfc; background-image: url('aiAwareness1.2.png'); background-repeat: no-repeat; background-position: center; padding: 100px 0px 100px 0px;"></button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #eeebfc; background-image: url('aiAwareness1.2.png'); background-repeat: no-repeat; background-position: center; padding: 100px 0px 100px 0px; width:70%;"></button>
     <br><br><br>
-    </form>
+  
   </div>
   <div class="tab-pane fade" id="lab-tab-pane" role="tabpanel" aria-labelledby="lab-tab" tabindex="0" style="color: #D6EF9F"> 
-    <h1>Labs & Quizzes</h1>
+    <h1>Labs</h1>
     <br>
     <form>
-      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Dr. Injection (injection prompts)
-        
-      </button>
+      <a href="lab1.php">
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #ffdf90; background-image: url('injection_lab1-6.png'); background-repeat: no-repeat; background-position: center; padding: 200px 0px 100px 0px; width:70%; background-size: cover;" ></button>
+      </a>
       <br>
-      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Being an Engineer (Prompt Engineering)</button>
+      <a href="lab2.php">
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #ffc34b; background-image: url('engineering_lab1-2.png'); background-repeat: no-repeat; background-position: center; padding: 200px 0px 100px 0px; width:70%; background-size: cover;" ></button>
+      </a>
       <br>
-      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #D6EF9F; background-image: ; background-repeat: no-repeat; background-position: center; padding: 75px 0px 150px 0px; background-size: cover;" >Understanding AI (AI awareness)</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #c6e1b9; background-image: url('poison_lab1-2.png'); background-repeat: no-repeat; background-position: center; padding: 200px 0px 150px 0px; width:70%; background-size: cover;" ></button>
     </form>
   </div>
   <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0" style="color: #D6EF9F"> <h1>Contacts</h1> <p>Jude Roberts: #123-456-789 <br><br> Michael Poe: #246-802-468

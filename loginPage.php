@@ -61,11 +61,11 @@
 		<!--ANIMATIONS! <^u*)-->
 	</head>
     <body>
-        
+        <a href = "homepage.php">
         <div class = "jumbotron">
             <h1>GPToxic Live Site</h1>
             <p>Presented by VMI Cadets--Roberts, Kelly, Poe</p>
-        </div>
+        </div></a>
 
 		<div id="OtherBody" style="background-color: #D6EF9F;">
 			<form action="loginHandler.php" method="post" style="padding: 50px">
@@ -74,8 +74,9 @@
 			Username: <input type="text" name="user" required>
 			<br><br>
 			Password: <input type="text" name="pass" required>
-			<br>
-			<a href="registeration.php" style="float: right; font-size: 15px">Not Registered?</a>
+			<br>			
+			<a href="registeration.php" style="float: right; font-size: 15px">Not Registered?</a> <br>
+			<a href="registeration.php" style="float: right; font-size: 15px">Register Here</a>
 			<br><br>
 			<input type="submit" name="login" value="LOGIN"></input>	
 		</form>

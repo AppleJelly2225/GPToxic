@@ -138,7 +138,7 @@
                         <p>I am Modal 2</p>
                     </div>
                     <div class="modal-footer">
-                    <button type="button" class="btn btn-default"><a href="homepage.php">Home page</a></button>
+                    <a href="homepage.php"><button type="button" class="btn btn-default">Home page</button></a>
                     </div>
                     </div>
                     
